@@ -5,18 +5,18 @@ Import users into the integrated Radius server in UniFi using the API. It suppor
 > [!CAUTION] 
 > This code was generated using ChatGPT. Use at your own risk.
 
----
+
 
 ## Tested on
 - UniFi Dream Machine PRO (UniFi OS 4.0.21, Network 8.6.9)
 
----
+
 
 ## How to use
 - **UniFi device** must be on the same local network as the machine running the script!
 - It is not possible to call the API via the `unifi.ui.com` portal.
 
----
+
 
 ### Creating a UniFi Admin
 
@@ -26,7 +26,7 @@ Import users into the integrated Radius server in UniFi using the API. It suppor
 1. Go to UniFi management and navigate to `Admins & Users`.
 2. Create a local user with the role `Super Admin`.
 
----
+
 
 ### Preparing Files with Users
 
@@ -39,7 +39,7 @@ Import users into the integrated Radius server in UniFi using the API. It suppor
 3. In the left panel, click `List Users`.
 4. Above the user table, click `CSV Export` at the top right.
 
----
+
 
 #### Radius Server Configuration File
 > [!NOTE] 
@@ -57,7 +57,7 @@ Import users into the integrated Radius server in UniFi using the API. It suppor
 
 3. Save it as a TXT file on your computer, e.g., `users.txt`.
 
----
+
 
 ### Importing
 
