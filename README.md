@@ -63,5 +63,5 @@ Import users into the integrated Radius server in UniFi using the API. It suppor
 
 Choose your import method:
 
-- **[Python](https://github.com/janneurocny/unifi-api-radius-users-import/Python)**
-- **[PHP](https://github.com/janneurocny/unifi-api-radius-users-import/PHP)**
+- **[Python](https://github.com/janneurocny/unifi-api-radius-users-import/tree/main/Python)**
+- **[PHP](https://github.com/janneurocny/unifi-api-radius-users-import/tree/main/PHP)**
